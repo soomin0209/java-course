@@ -1,6 +1,6 @@
-package chapter2.wrapper;
+package chapter2.wrapper.practice;
 
-public class Practice {
+public class Main {
 
     public static void main(String[] args) {
         int iteration = 10_000_000; // 1000만 번 반복

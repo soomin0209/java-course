@@ -1,4 +1,4 @@
-package chapter2.wrapper;
+package chapter2.wrapper.practice;
 
 public class MyDouble {
     // 1. 속성
