@@ -8,12 +8,21 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("아이디를 입력하세요: ");
-        String id = scanner.nextLine();
-        System.out.print("비밀번호를 입력하세요: ");
-        String pw = scanner.nextLine();
+        while (true) {
+            try {
+                System.out.print("아이디를 입력하세요: ");
+                String id = scanner.nextLine();
+                System.out.print("비밀번호를 입력하세요: ");
+                String pw = scanner.nextLine();
 
-        Login login = new Login();
-        login.LoginException(id, pw);
+                Login login = new Login();
+                login.LoginException(id, pw);
+
+                break;
+
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
     }
 }
