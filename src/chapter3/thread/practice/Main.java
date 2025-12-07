@@ -69,7 +69,5 @@ public class Main {
 
         System.out.println("싱글 쓰레드: " + singleTotalTime + "ms, 멀티 쓰레드: " + multiTotalTime + "ms");
         System.out.println("차이: " + (singleTotalTime - multiTotalTime) + "ms");
-
-
     }
 }

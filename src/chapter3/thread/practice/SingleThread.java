@@ -9,7 +9,7 @@ public class SingleThread {
             sum += i;
             System.out.println(sum);
             try {
-                Thread.sleep(10);  // 0.5초 딜레이
+                Thread.sleep(10);  // 0.01초 딜레이
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
